@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "One per mod: copy next to the mod, e.g. <mod>/3d/forge.json. Relative paths are relative to THIS file;",
+    "%VARS% expand (e.g. %USERPROFILE%). Empty blender / dayz_tools_bin / p_drive_real are detected:",
+    "blender on PATH or Program Files/Blender Foundation; DayZ Tools in your Steam libraries; P: from 'subst'.",
+    "rig_blend and the two bodies are NOT shipped with the tool (licenses): see README, 'What you must provide'.",
+    "pbo_path: leave empty to derive it from the $PBOPREFIX$ above data_dir.",
+    "Check everything without building: python build_vest.py --config <this file> --check-config"
+  ],
+  "blender": "",
+  "dayz_tools_bin": "",
+  "p_drive": "P:\\",
+  "p_drive_real": "",
+  "rig_blend": "%USERPROFILE%/dayz-forge/RIG.blend",
+  "body_male": "%USERPROFILE%/dayz-forge/DayZ-Misc/Body parts/character_male.p3d",
+  "body_female": "%USERPROFILE%/dayz-forge/DayZ-Misc/Body parts/character_female.p3d",
+  "mod_root": "..",
+  "data_dir": "MyMod_Client/data/vests",
+  "source_dir": "3d/source",
+  "pbo_path": ""
+}

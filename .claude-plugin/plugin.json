@@ -1,0 +1,23 @@
+{
+  "name": "kryden-dayz-ai-toolkit",
+  "version": "1.0.0",
+  "description": "DayZ modding toolkit for AI coding agents: 129 DayZ and Enforce Script traps (108 of them silent), a 3D model to wearable item pipeline (Model Forge) and a DayZ UI design system (work in progress).",
+  "author": {
+    "name": "Morette"
+  },
+  "homepage": "https://github.com/c-Morette/kryden-dayz-ai-toolkit",
+  "repository": "https://github.com/c-Morette/kryden-dayz-ai-toolkit",
+  "license": "LicenseRef-MIT-Commons-Clause",
+  "keywords": [
+    "dayz",
+    "enforce-script",
+    "modding",
+    "enfusion",
+    "pbo",
+    "p3d",
+    "model-forge",
+    "blender",
+    "dayz-ui",
+    "layout"
+  ]
+}

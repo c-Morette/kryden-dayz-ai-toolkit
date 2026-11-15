@@ -1,0 +1,127 @@
+FrameWidgetClass kld_lab_04_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass l_a1_first_red_noprio {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.2 0.2 1
+   position 40 40
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass l_a2_second_blue_noprio {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.4 0.9 1
+   position 140 140
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass l_b1_first_red_p10 {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.2 0.2 1
+   position 440 40
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style rover_sim_colorable
+  }
+  PanelWidgetClass l_b2_second_blue_p1 {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.4 0.9 1
+   position 540 140
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass l_c1_first_red_p1 {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.2 0.2 1
+   position 840 40
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass l_c2_second_blue_p10 {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.4 0.9 1
+   position 940 140
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 10
+   style rover_sim_colorable
+  }
+  FrameWidgetClass l_d_parent_p1 {
+   visible 1
+   ignorepointer 1
+   position 1240 40
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 1
+   {
+    PanelWidgetClass l_d1_child_red_p999 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 200 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     priority 999
+     style rover_sim_colorable
+    }
+   }
+  }
+  PanelWidgetClass l_d2_sibling_blue_p5 {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.4 0.9 1
+   position 1340 140
+   size 200 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 5
+   style rover_sim_colorable
+  }
+ }
+}

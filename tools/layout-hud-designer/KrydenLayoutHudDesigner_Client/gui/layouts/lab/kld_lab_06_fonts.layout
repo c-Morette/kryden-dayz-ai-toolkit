@@ -1,0 +1,216 @@
+FrameWidgetClass kld_lab_06_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass f_bg {
+   visible 1
+   ignorepointer 1
+   color 0.04 0.04 0.04 0.92
+   position 40 40
+   size 1160 800
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    TextWidgetClass f01_sdfbook24_at16 {
+     visible 1
+     ignorepointer 1
+     position 20 20
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 16
+    }
+    TextWidgetClass f02_sdfbook24_at24 {
+     visible 1
+     ignorepointer 1
+     position 20 80
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 24
+    }
+    TextWidgetClass f03_sdfbook24_at32 {
+     visible 1
+     ignorepointer 1
+     position 20 140
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 32
+    }
+    TextWidgetClass f04_sdflight24_at16 {
+     visible 1
+     ignorepointer 1
+     position 20 200
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronLight24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 16
+    }
+    TextWidgetClass f05_sdflight24_at24 {
+     visible 1
+     ignorepointer 1
+     position 20 260
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronLight24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 24
+    }
+    TextWidgetClass f06_sdfbook72_at48 {
+     visible 1
+     ignorepointer 1
+     position 20 320
+     size 1100 64
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronBook72"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 48
+    }
+    TextWidgetClass f07_metron_nosuffix_at16 {
+     visible 1
+     ignorepointer 1
+     position 20 404
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/Metron"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 16
+    }
+    TextWidgetClass f08_metron16_at16 {
+     visible 1
+     ignorepointer 1
+     position 20 456
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/Metron16"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 16
+    }
+    TextWidgetClass f09_metron16_at24 {
+     visible 1
+     ignorepointer 1
+     position 20 508
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/Metron16"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 24
+    }
+    TextWidgetClass f10_metronbook16_at16 {
+     visible 1
+     ignorepointer 1
+     position 20 560
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/MetronBook16"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 16
+    }
+    TextWidgetClass f11_sdflight24_noexact {
+     visible 1
+     ignorepointer 1
+     position 20 612
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Ação ÇÃÕ ãõç áéíóú âêô 0123"
+     font "gui/fonts/sdf_MetronLight24"
+     "text color" 1 1 1 1
+     "text valign" center
+    }
+    TextWidgetClass f12_sdfbook24_at24_ascii {
+     visible 1
+     ignorepointer 1
+     position 20 664
+     size 1100 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Acao CAO aoc aeiou aeo 0123"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 1 1 1 1
+     "text valign" center
+     "exact text" 1
+     "exact text size" 24
+    }
+   }
+  }
+ }
+}

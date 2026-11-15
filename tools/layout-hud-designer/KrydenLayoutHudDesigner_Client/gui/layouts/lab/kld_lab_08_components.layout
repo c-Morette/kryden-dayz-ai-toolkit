@@ -1,0 +1,739 @@
+FrameWidgetClass kld_lab_08_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass sc_bg {
+   visible 1
+   ignorepointer 1
+   color 0.0392 0.0392 0.0392 1
+   position 0 0
+   size 1920 1080
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+  }
+  TextWidgetClass sc_title {
+   visible 1
+   ignorepointer 1
+   color 0.9804 0.9804 0.9804 1
+   position 40 32
+   size 800 28
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Kryden Layout: components v0"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 18
+   "text valign" center
+  }
+  WrapSpacerWidgetClass sc_buttons {
+   visible 1
+   position 40 80
+   size 1000 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   Padding 12
+   Margin 0
+  }
+  WrapSpacerWidgetClass sc_badges {
+   visible 1
+   position 40 132
+   size 600 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   Padding 8
+   Margin 0
+  }
+  WrapSpacerWidgetClass sc_cards {
+   visible 1
+   position 40 180
+   size 1000 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   Padding 24
+   Margin 0
+  }
+  FrameWidgetClass sc_sep {
+   visible 1
+   ignorepointer 1
+   position 40 424
+   size 824 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  TextWidgetClass sc_status {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 40 440
+   size 824 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Click a button"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   "text valign" center
+  }
+  TextWidgetClass cmp_title {
+   visible 1
+   ignorepointer 1
+   color 0.9804 0.9804 0.9804 1
+   position 40 488
+   size 1100 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Primary comparison: button (text 16) and badge (text 14)"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 16
+   "text valign" center
+  }
+  TextWidgetClass cmp_atual_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 40 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "yellow D-11"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_atual_btn {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 40 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_atual_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.1020 0.0706 0.0235 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_atual_badge {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 40 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_atual_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.1020 0.0706 0.0235 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_preto_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 192 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "yellow + black"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_preto_btn {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 192 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_preto_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.0000 0.0000 0.0000 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_preto_badge {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 192 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_preto_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.0000 0.0000 0.0000 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_preto_b_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 344 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "black bold"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_preto_b_btn {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 344 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_preto_b_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.0000 0.0000 0.0000 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/MetronBook-Bold16"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_preto_b_badge {
+   visible 1
+   ignorepointer 1
+   color 0.9412 0.6941 0.0000 1
+   position 344 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_preto_b_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.0000 0.0000 0.0000 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/MetronBook-Bold14"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_shadcn_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 496 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "shadcn regular"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_shadcn_btn {
+   visible 1
+   ignorepointer 1
+   color 0.8980 0.8980 0.8980 1
+   position 496 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_shadcn_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.0902 0.0902 0.0902 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_shadcn_badge {
+   visible 1
+   ignorepointer 1
+   color 0.8980 0.8980 0.8980 1
+   position 496 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_shadcn_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.0902 0.0902 0.0902 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_shadcn_b_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 648 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "shadcn bold"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_shadcn_b_btn {
+   visible 1
+   ignorepointer 1
+   color 0.8980 0.8980 0.8980 1
+   position 648 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_shadcn_b_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.0902 0.0902 0.0902 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/MetronBook-Bold16"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_shadcn_b_badge {
+   visible 1
+   ignorepointer 1
+   color 0.8980 0.8980 0.8980 1
+   position 648 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_shadcn_b_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.0902 0.0902 0.0902 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/MetronBook-Bold14"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_yellow700_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 800 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "yellow 700"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_yellow700_btn {
+   visible 1
+   ignorepointer 1
+   color 0.6510 0.3725 0.0000 1
+   position 800 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_yellow700_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_yellow700_badge {
+   visible 1
+   ignorepointer 1
+   color 0.6510 0.3725 0.0000 1
+   position 800 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_yellow700_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_amber700_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 952 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "amber 700"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_amber700_btn {
+   visible 1
+   ignorepointer 1
+   color 0.7333 0.3020 0.0000 1
+   position 952 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_amber700_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_amber700_badge {
+   visible 1
+   ignorepointer 1
+   color 0.7333 0.3020 0.0000 1
+   position 952 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_amber700_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  TextWidgetClass cmp_neutral600_caption {
+   visible 1
+   ignorepointer 1
+   color 0.6314 0.6314 0.6314 1
+   position 1104 520
+   size 140 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "neutral 600"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+  }
+  PanelWidgetClass cmp_neutral600_btn {
+   visible 1
+   ignorepointer 1
+   color 0.3216 0.3216 0.3216 1
+   position 1104 544
+   size 128 32
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_neutral600_btn_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "Confirm"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass cmp_neutral600_badge {
+   visible 1
+   ignorepointer 1
+   color 0.3216 0.3216 0.3216 1
+   position 1104 588
+   size 80 24
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style kld_fill_r10
+   {
+    TextWidgetClass cmp_neutral600_badge_label {
+     visible 1
+     ignorepointer 1
+     color 0.9804 0.9804 0.9804 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "New"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+     "text halign" center
+    }
+   }
+  }
+ }
+}

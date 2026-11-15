@@ -1,0 +1,183 @@
+FrameWidgetClass kld_lab_menu_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 950
+ {
+  PanelWidgetClass kld_lab_panel {
+   visible 1
+   color 0.04 0.04 0.04 0.92
+   position 40 120
+   size 300 604
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    TextWidgetClass kld_lab_title {
+     visible 1
+     ignorepointer 1
+     position 20 16
+     size 260 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Kryden Layout Lab"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 1 1 1 1
+     "exact text" 1
+     "exact text size" 22
+     "text valign" center
+    }
+    ButtonWidgetClass kld_lab_btn_01 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 64
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "01 Sizing"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_02 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 116
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "02 Anchors"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_03 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 168
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "03 Spacers"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_04 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 220
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "04 Layers"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_05 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 272
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "05 Nine-slice"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_06 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 324
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "06 Fonts"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_07 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 376
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "07 Atlas"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_08 {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 428
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "08 Components"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    ButtonWidgetClass kld_lab_btn_close {
+     visible 1
+     color 0.1569 0.1569 0.1569 0.902
+     position 20 492
+     size 260 44
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Colorable
+     text "Close"
+     text_proportion 0.6
+     font "gui/fonts/sdf_MetronLight24"
+    }
+    TextWidgetClass kld_lab_hint {
+     visible 1
+     ignorepointer 1
+     position 20 548
+     size 260 40
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "ESC closes the open test"
+     font "gui/fonts/sdf_MetronBook24"
+     "text color" 0.63 0.63 0.63 1
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+    }
+   }
+  }
+ }
+}

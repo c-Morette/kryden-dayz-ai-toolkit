@@ -1,0 +1,230 @@
+ImageSetClass {
+ Name "kld_ui"
+ RefSize 64 64
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "Kryden/KrydenLayoutHudDesigner/KrydenLayoutHudDesigner_Client/gui/textures/kld_ui_atlas.paa"
+  }
+ }
+ Images {
+  ImageSetDefClass kld_fill_r10_LeftTop {
+   Name "kld_fill_r10_LeftTop"
+   Pos 0 0
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_Top {
+   Name "kld_fill_r10_Top"
+   Pos 10 0
+   Size 4 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_RightTop {
+   Name "kld_fill_r10_RightTop"
+   Pos 14 0
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_Left {
+   Name "kld_fill_r10_Left"
+   Pos 0 10
+   Size 10 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_Center {
+   Name "kld_fill_r10_Center"
+   Pos 10 10
+   Size 4 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_Right {
+   Name "kld_fill_r10_Right"
+   Pos 14 10
+   Size 10 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_LeftBottom {
+   Name "kld_fill_r10_LeftBottom"
+   Pos 0 14
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_Bottom {
+   Name "kld_fill_r10_Bottom"
+   Pos 10 14
+   Size 4 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r10_RightBottom {
+   Name "kld_fill_r10_RightBottom"
+   Pos 14 14
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_LeftTop {
+   Name "kld_ring_r10_LeftTop"
+   Pos 32 0
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_Top {
+   Name "kld_ring_r10_Top"
+   Pos 42 0
+   Size 4 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_RightTop {
+   Name "kld_ring_r10_RightTop"
+   Pos 46 0
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_Left {
+   Name "kld_ring_r10_Left"
+   Pos 32 10
+   Size 10 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_Center {
+   Name "kld_ring_r10_Center"
+   Pos 42 10
+   Size 4 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_Right {
+   Name "kld_ring_r10_Right"
+   Pos 46 10
+   Size 10 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_LeftBottom {
+   Name "kld_ring_r10_LeftBottom"
+   Pos 32 14
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_Bottom {
+   Name "kld_ring_r10_Bottom"
+   Pos 42 14
+   Size 4 10
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r10_RightBottom {
+   Name "kld_ring_r10_RightBottom"
+   Pos 46 14
+   Size 10 10
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_LeftTop {
+   Name "kld_fill_r6_LeftTop"
+   Pos 0 32
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_Top {
+   Name "kld_fill_r6_Top"
+   Pos 6 32
+   Size 4 6
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_RightTop {
+   Name "kld_fill_r6_RightTop"
+   Pos 10 32
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_Left {
+   Name "kld_fill_r6_Left"
+   Pos 0 38
+   Size 6 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_Center {
+   Name "kld_fill_r6_Center"
+   Pos 6 38
+   Size 4 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_Right {
+   Name "kld_fill_r6_Right"
+   Pos 10 38
+   Size 6 4
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_LeftBottom {
+   Name "kld_fill_r6_LeftBottom"
+   Pos 0 42
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_Bottom {
+   Name "kld_fill_r6_Bottom"
+   Pos 6 42
+   Size 4 6
+   Flags 0
+  }
+  ImageSetDefClass kld_fill_r6_RightBottom {
+   Name "kld_fill_r6_RightBottom"
+   Pos 10 42
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_LeftTop {
+   Name "kld_ring_r6_LeftTop"
+   Pos 32 32
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_Top {
+   Name "kld_ring_r6_Top"
+   Pos 38 32
+   Size 4 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_RightTop {
+   Name "kld_ring_r6_RightTop"
+   Pos 42 32
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_Left {
+   Name "kld_ring_r6_Left"
+   Pos 32 38
+   Size 6 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_Center {
+   Name "kld_ring_r6_Center"
+   Pos 38 38
+   Size 4 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_Right {
+   Name "kld_ring_r6_Right"
+   Pos 42 38
+   Size 6 4
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_LeftBottom {
+   Name "kld_ring_r6_LeftBottom"
+   Pos 32 42
+   Size 6 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_Bottom {
+   Name "kld_ring_r6_Bottom"
+   Pos 38 42
+   Size 4 6
+   Flags 0
+  }
+  ImageSetDefClass kld_ring_r6_RightBottom {
+   Name "kld_ring_r6_RightBottom"
+   Pos 42 42
+   Size 6 6
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

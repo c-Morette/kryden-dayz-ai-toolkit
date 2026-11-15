@@ -1,0 +1,32 @@
+# Build output and packed mods
+build/
+dist/
+out/
+Release/
+*.pbo
+*.ebo
+*.bisign
+*.bikey
+*.biprivatekey
+
+# Generated or third-party assets
+*.paa
+*.p3d
+*.blend
+*.blend1
+*.zip
+
+# Local configuration
+forge.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

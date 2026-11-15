@@ -1,0 +1,621 @@
+FrameWidgetClass kld_lab_07_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass t_bg {
+   visible 1
+   ignorepointer 1
+   color 0.0394 0.0394 0.0394 1
+   position 0 0
+   size 1920 1080
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    PanelWidgetClass c_card_fill {
+     visible 1
+     ignorepointer 1
+     color 0.0905 0.0905 0.0905 1
+     position 40 40
+     size 480 260
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass c_card_ring {
+     visible 1
+     ignorepointer 1
+     color 0.1804 0.1804 0.1804 1
+     position 40 40
+     size 480 260
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r10
+    }
+    TextWidgetClass c_title_18 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 56 56
+     size 448 28
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Card title"
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 18
+     "text valign" center
+    }
+    TextWidgetClass c_desc_16 {
+     visible 1
+     ignorepointer 1
+     color 0.6302 0.6302 0.6302 1
+     position 56 92
+     size 448 24
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Description in secondary text"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 1
+     "exact text size" 16
+     "text valign" center
+    }
+    TextWidgetClass c_caption_14 {
+     visible 1
+     ignorepointer 1
+     color 0.6302 0.6302 0.6302 1
+     position 56 124
+     size 448 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Caption 14 px"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+    }
+    ButtonWidgetClass c_btn_primary {
+     visible 1
+     color 0.9413 0.6929 0 1
+     position 56 252
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Confirm"
+     "text color" 0.4505 0.2424 0.0409 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass c_btn_secondary {
+     visible 1
+     color 0.1529 0.1529 0.1658 1
+     position 188 252
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Cancel"
+     "text color" 0.9803 0.9803 0.9803 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b1_primary {
+     visible 1
+     color 0.9413 0.6929 0 1
+     position 40 340
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Primary"
+     "text color" 0.4505 0.2424 0.0409 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b2_primary {
+     visible 1
+     color 0.9413 0.6929 0 1
+     position 40 388
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     {
+      TextWidgetClass b2_primary_label {
+       visible 1
+       ignorepointer 1
+       color 0.4505 0.2424 0.0409 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Primary"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 16
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    ButtonWidgetClass b1_secondary {
+     visible 1
+     color 0.1529 0.1529 0.1658 1
+     position 176 340
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Secondary"
+     "text color" 0.9803 0.9803 0.9803 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b2_secondary {
+     visible 1
+     color 0.1529 0.1529 0.1658 1
+     position 176 388
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     {
+      TextWidgetClass b2_secondary_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Secondary"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 16
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    ButtonWidgetClass b1_outline {
+     visible 1
+     color 0.1843 0.1843 0.1843 1
+     position 312 340
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_ring_r10
+     text "Outline"
+     "text color" 0.9803 0.9803 0.9803 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b2_outline {
+     visible 1
+     color 0.1843 0.1843 0.1843 1
+     position 312 388
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_ring_r10
+     {
+      TextWidgetClass b2_outline_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Outline"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 16
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    ButtonWidgetClass b1_ghost {
+     visible 1
+     color 0 0 0 0
+     position 448 340
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Ghost"
+     "text color" 0.9803 0.9803 0.9803 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b2_ghost {
+     visible 1
+     color 0 0 0 0
+     position 448 388
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     {
+      TextWidgetClass b2_ghost_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Ghost"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 16
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    ButtonWidgetClass b1_destructive {
+     visible 1
+     color 1 0.3912 0.4039 1
+     position 584 340
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     text "Destructive"
+     "text color" 0.9803 0.9803 0.9803 1
+     text_proportion 0.5
+     font "gui/fonts/sdf_MetronBook24"
+    }
+    ButtonWidgetClass b2_destructive {
+     visible 1
+     color 1 0.3912 0.4039 1
+     position 584 388
+     size 120 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_btn_fill_r10
+     {
+      TextWidgetClass b2_destructive_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Destructive"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 16
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    PanelWidgetClass badge_primary {
+     visible 1
+     ignorepointer 1
+     color 0.9413 0.6929 0 1
+     position 40 444
+     size 64 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r6
+     {
+      TextWidgetClass badge_primary_label {
+       visible 1
+       ignorepointer 1
+       color 0.4505 0.2424 0.0409 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "New"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 14
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    PanelWidgetClass badge_secondary {
+     visible 1
+     ignorepointer 1
+     color 0.1529 0.1529 0.1658 1
+     position 116 444
+     size 64 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r6
+     {
+      TextWidgetClass badge_secondary_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Beta"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 14
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    PanelWidgetClass badge_outline {
+     visible 1
+     ignorepointer 1
+     color 0.1333 0.1333 0.1333 1
+     position 192 444
+     size 96 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r6
+     {
+      TextWidgetClass badge_outline_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Draft"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 14
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    PanelWidgetClass badge_destructive {
+     visible 1
+     ignorepointer 1
+     color 1 0.3912 0.4039 1
+     position 300 444
+     size 64 22
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r6
+     {
+      TextWidgetClass badge_destructive_label {
+       visible 1
+       ignorepointer 1
+       color 0.9803 0.9803 0.9803 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "Error"
+       font "gui/fonts/sdf_MetronBook24"
+       "exact text" 1
+       "exact text size" 14
+       "text valign" center
+       "text halign" center
+      }
+     }
+    }
+    PanelWidgetClass t_fill_r10_24x24_min {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 800 40
+     size 24 24
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass t_fill_r10_100x32 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 840 40
+     size 100 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass t_fill_r10_600x200 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 960 40
+     size 600 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass t_ring_r10_24x24_min {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 800 260
+     size 24 24
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r10
+    }
+    PanelWidgetClass t_ring_r10_100x32 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 840 260
+     size 100 32
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r10
+    }
+    PanelWidgetClass t_ring_r10_600x200 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 960 260
+     size 600 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r10
+    }
+    PanelWidgetClass t_fill_r10_16x16_under_min {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 800 500
+     size 16 16
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass t_amber_base_a {
+     visible 1
+     ignorepointer 1
+     color 0.9413 0.6929 0 1
+     position 840 500
+     size 200 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass t_ring_r10_over_amber {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 840 500
+     size 200 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_ring_r10
+    }
+    PanelWidgetClass t_amber_base_b {
+     visible 1
+     ignorepointer 1
+     color 0.9413 0.6929 0 1
+     position 1080 500
+     size 200 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass t_fill_r10_black50_over_amber {
+     visible 1
+     ignorepointer 1
+     color 0 0 0 0.5
+     position 1080 500
+     size 200 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r10
+    }
+    PanelWidgetClass t_fill_r6_200x80 {
+     visible 1
+     ignorepointer 1
+     color 0.9803 0.9803 0.9803 1
+     position 1320 500
+     size 200 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style kld_fill_r6
+    }
+   }
+  }
+ }
+}

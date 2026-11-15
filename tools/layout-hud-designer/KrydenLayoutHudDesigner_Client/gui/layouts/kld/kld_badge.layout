@@ -1,0 +1,43 @@
+PanelWidgetClass kld_badge {
+ visible 1
+ ignorepointer 1
+ color 0.8980 0.8980 0.8980 1
+ position 0 0
+ size 80 24
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style kld_fill_r10
+ {
+  PanelWidgetClass kld_badge_border {
+   visible 0
+   ignorepointer 1
+   color 0.1333 0.1333 0.1333 1
+   position 0 0
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style kld_ring_r10
+  }
+  TextWidgetClass kld_badge_label {
+   visible 1
+   ignorepointer 1
+   color 0.0902 0.0902 0.0902 1
+   position 0 0
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "Badge"
+   font "gui/fonts/sdf_MetronBook24"
+   "exact text" 1
+   "exact text size" 14
+   "text valign" center
+   "text halign" center
+  }
+ }
+}

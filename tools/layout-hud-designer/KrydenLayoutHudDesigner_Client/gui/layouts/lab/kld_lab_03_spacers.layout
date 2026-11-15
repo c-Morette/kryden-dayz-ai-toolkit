@@ -1,0 +1,554 @@
+FrameWidgetClass kld_lab_03_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  GridSpacerWidgetClass g1_pad10_mar0 {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 40 40
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 10
+   Margin 0
+   Columns 3
+   Rows 2
+   {
+    PanelWidgetClass g1_pad10_mar0_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g1_pad10_mar0_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g1_pad10_mar0_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g1_pad10_mar0_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g1_pad10_mar0_c5 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g1_pad10_mar0_c6 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+   }
+  }
+  GridSpacerWidgetClass g2_pad0_mar10 {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 500 40
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 10
+   Columns 3
+   Rows 2
+   {
+    PanelWidgetClass g2_pad0_mar10_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g2_pad0_mar10_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g2_pad0_mar10_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g2_pad0_mar10_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g2_pad0_mar10_c5 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g2_pad0_mar10_c6 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+   }
+  }
+  GridSpacerWidgetClass g3_pad10_mar25 {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 960 40
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 10
+   Margin 25
+   Columns 3
+   Rows 2
+   {
+    PanelWidgetClass g3_pad10_mar25_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g3_pad10_mar25_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g3_pad10_mar25_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g3_pad10_mar25_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g3_pad10_mar25_c5 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g3_pad10_mar25_c6 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+   }
+  }
+  WrapSpacerWidgetClass w1_pad10_mar0 {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 40 320
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 10
+   Margin 0
+   {
+    PanelWidgetClass w1_pad10_mar0_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w1_pad10_mar0_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w1_pad10_mar0_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w1_pad10_mar0_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w1_pad10_mar0_c5 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  WrapSpacerWidgetClass w2_pad0_mar10 {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 500 320
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 10
+   {
+    PanelWidgetClass w2_pad0_mar10_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w2_pad0_mar10_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w2_pad0_mar10_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w2_pad0_mar10_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w2_pad0_mar10_c5 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  WrapSpacerWidgetClass w3_center {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 960 320
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 0
+   content_halign center
+   {
+    PanelWidgetClass w3_center_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w3_center_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass w3_center_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 100 50
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  GridSpacerWidgetClass g4_sizetocontent_v {
+   visible 1
+   ignorepointer 1
+   color 0.25 0.25 0.25 0.9
+   position 40 600
+   size 420 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 0
+   Columns 2
+   Rows 2
+   "Size To Content V" 1
+   {
+    PanelWidgetClass g4_sizetocontent_v_c1 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.2 0.2 1
+     position 0 0
+     size 100 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g4_sizetocontent_v_c2 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.4 0.9 1
+     position 0 0
+     size 100 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g4_sizetocontent_v_c3 {
+     visible 1
+     ignorepointer 1
+     color 0.2 0.7 0.2 1
+     position 0 0
+     size 100 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+    PanelWidgetClass g4_sizetocontent_v_c4 {
+     visible 1
+     ignorepointer 1
+     color 0.9 0.7 0.1 1
+     position 0 0
+     size 100 80
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+   }
+  }
+ }
+}

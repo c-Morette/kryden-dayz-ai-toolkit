@@ -1,0 +1,244 @@
+FrameWidgetClass kld_lab_05_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass n_bg {
+   visible 1
+   ignorepointer 1
+   color 0.04 0.04 0.04 0.92
+   position 20 20
+   size 1860 1020
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    PanelWidgetClass n1_default_60x30 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 20 20
+     size 60 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+    }
+    PanelWidgetClass n2_default_200x100 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 120 20
+     size 200 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+    }
+    PanelWidgetClass n3_default_600x300 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 360 20
+     size 600 300
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+    }
+    PanelWidgetClass n7_sides_200x100 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 1000 20
+     size 200 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanelSides
+    }
+    PanelWidgetClass n8_uidefault_200x100 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 1240 20
+     size 200 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style UIDefaultPanel
+    }
+    PanelWidgetClass n4_outline_200x100 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 20 360
+     size 200 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Outline
+    }
+    PanelWidgetClass n5_dashed_200x100 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 260 360
+     size 200 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style dashed
+    }
+    PanelWidgetClass n6_default_prop_20x15 {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 500 360
+     size 0.2 0.15
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style DayZDefaultPanel
+    }
+    PanelWidgetClass i1_frame_none {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 20 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Outline
+    }
+    ImageWidgetClass i1_logo_none {
+     visible 1
+     ignorepointer 1
+     color 1 1 1 1
+     position 20 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect none
+     image0 "set:dayz_gui image:DayZLogo"
+     mode additive
+     "src alpha" 1
+    }
+    PanelWidgetClass i2_frame_fixwidth {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 360 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Outline
+    }
+    ImageWidgetClass i2_logo_fixwidth {
+     visible 1
+     ignorepointer 1
+     color 1 1 1 1
+     position 360 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect fixwidth
+     image0 "set:dayz_gui image:DayZLogo"
+     mode additive
+     "src alpha" 1
+    }
+    PanelWidgetClass i3_frame_inside {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 700 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Outline
+    }
+    ImageWidgetClass i3_logo_inside {
+     visible 1
+     ignorepointer 1
+     color 1 1 1 1
+     position 700 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect inside
+     image0 "set:dayz_gui image:DayZLogo"
+     mode additive
+     "src alpha" 1
+    }
+    PanelWidgetClass i4_frame_outside {
+     visible 1
+     ignorepointer 1
+     color 1 0.75 0 1
+     position 1040 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Outline
+    }
+    ImageWidgetClass i4_logo_outside {
+     visible 1
+     ignorepointer 1
+     color 1 1 1 1
+     position 1040 560
+     size 300 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 "set:dayz_gui image:DayZLogo"
+     mode additive
+     "src alpha" 1
+    }
+    ImageWidgetClass i0_logo_native_444x208 {
+     visible 1
+     ignorepointer 1
+     color 1 1 1 1
+     position 1400 520
+     size 444 208
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "set:dayz_gui image:DayZLogo"
+     mode additive
+     "src alpha" 1
+    }
+   }
+  }
+ }
+}

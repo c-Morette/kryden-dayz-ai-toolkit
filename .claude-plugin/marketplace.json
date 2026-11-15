@@ -1,0 +1,14 @@
+{
+  "name": "kryden-dayz-ai-toolkit",
+  "description": "Kryden DayZ AI Toolkit: DayZ modding skills and agents for Claude Code and OpenAI Codex.",
+  "owner": {
+    "name": "Morette"
+  },
+  "plugins": [
+    {
+      "name": "kryden-dayz-ai-toolkit",
+      "source": "./",
+      "description": "DayZ modding toolkit for AI coding agents: 129 DayZ and Enforce Script traps (108 of them silent), a 3D model to wearable item pipeline (Model Forge) and a DayZ UI design system (work in progress)."
+    }
+  ]
+}

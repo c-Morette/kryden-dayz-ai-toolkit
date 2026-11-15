@@ -1,0 +1,161 @@
+FrameWidgetClass kld_lab_01_root {
+ visible 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 900
+ {
+  PanelWidgetClass s01_px_100x100 {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.2 0.2 1
+   position 40 40
+   size 100 100
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s02_px_200x50 {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.7 0.2 1
+   position 40 180
+   size 200 50
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s03_prop_25x25 {
+   visible 1
+   ignorepointer 1
+   color 0.2 0.4 0.9 1
+   position 0.3 0.05
+   size 0.25 0.25
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s04_mix_w300px_h10pct {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.7 0.1 1
+   position 40 280
+   size 300 0.1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s05_px_100x100_scaled {
+   visible 1
+   ignorepointer 1
+   color 0.9 0.2 0.9 1
+   position 180 40
+   size 100 100
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s06_prop_10x10_scaled {
+   visible 1
+   ignorepointer 1
+   color 0.1 0.8 0.8 1
+   position 0.3 0.4
+   size 0.1 0.1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   style rover_sim_colorable
+  }
+  PanelWidgetClass s07_prop_10x10_noscale {
+   visible 1
+   ignorepointer 1
+   color 0.1 0.5 0.5 1
+   position 0.45 0.4
+   size 0.1 0.1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   style rover_sim_colorable
+  }
+  FrameWidgetClass s08_parent_prop_40x40 {
+   visible 1
+   ignorepointer 1
+   position 0.55 0.05
+   size 0.4 0.4
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    PanelWidgetClass s08_bg {
+     visible 1
+     ignorepointer 1
+     color 0.3 0.3 0.3 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      PanelWidgetClass s08a_child_px_100x100 {
+       visible 1
+       ignorepointer 1
+       color 0.9 0.5 0.1 1
+       position 10 10
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+      }
+      PanelWidgetClass s08b_child_prop_50x50 {
+       visible 1
+       ignorepointer 1
+       color 0.5 0.9 0.1 1
+       position 0.5 0.5
+       size 0.5 0.5
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style rover_sim_colorable
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass s09_pospx_sizeprop {
+   visible 1
+   ignorepointer 1
+   color 0.6 0.6 0.9 1
+   position 40 400
+   size 0.1 0.05
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+  }
+ }
+}

@@ -1,0 +1,330 @@
+<WidgetStyles>
+    <Widget Name="PanelWidget">
+        <Style Name="kld_fill_r10" Font="" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_ring_r10" Font="" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_fill_r6" Font="" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_ring_r6" Font="" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="ButtonWidget">
+        <Style Name="kld_btn_fill_r10" Font="gui/fonts/sdf_MetronBook24" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+            <State Name="Focus">
+                <Item Name="LeftTop" Image="kld_fill_r10_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r10_Top" />
+                <Item Name="RightTop" Image="kld_fill_r10_RightTop" />
+                <Item Name="Left" Image="kld_fill_r10_Left" />
+                <Item Name="Center" Image="kld_fill_r10_Center" />
+                <Item Name="Right" Image="kld_fill_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r10_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_btn_ring_r10" Font="gui/fonts/sdf_MetronBook24" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+            <State Name="Focus">
+                <Item Name="LeftTop" Image="kld_ring_r10_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r10_Top" />
+                <Item Name="RightTop" Image="kld_ring_r10_RightTop" />
+                <Item Name="Left" Image="kld_ring_r10_Left" />
+                <Item Name="Center" Image="kld_ring_r10_Center" />
+                <Item Name="Right" Image="kld_ring_r10_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r10_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r10_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r10_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_btn_fill_r6" Font="gui/fonts/sdf_MetronBook24" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+            <State Name="Focus">
+                <Item Name="LeftTop" Image="kld_fill_r6_LeftTop" />
+                <Item Name="Top" Image="kld_fill_r6_Top" />
+                <Item Name="RightTop" Image="kld_fill_r6_RightTop" />
+                <Item Name="Left" Image="kld_fill_r6_Left" />
+                <Item Name="Center" Image="kld_fill_r6_Center" />
+                <Item Name="Right" Image="kld_fill_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_fill_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_fill_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_fill_r6_RightBottom" />
+            </State>
+        </Style>
+        <Style Name="kld_btn_ring_r6" Font="gui/fonts/sdf_MetronBook24" ImageSet="kld_ui" Color="4294967295">
+            <State Name="Normal">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+            <State Name="Disabled">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+            <State Name="Focus">
+                <Item Name="LeftTop" Image="kld_ring_r6_LeftTop" />
+                <Item Name="Top" Image="kld_ring_r6_Top" />
+                <Item Name="RightTop" Image="kld_ring_r6_RightTop" />
+                <Item Name="Left" Image="kld_ring_r6_Left" />
+                <Item Name="Center" Image="kld_ring_r6_Center" />
+                <Item Name="Right" Image="kld_ring_r6_Right" />
+                <Item Name="LeftBottom" Image="kld_ring_r6_LeftBottom" />
+                <Item Name="Bottom" Image="kld_ring_r6_Bottom" />
+                <Item Name="RightBottom" Image="kld_ring_r6_RightBottom" />
+            </State>
+        </Style>
+    </Widget>
+</WidgetStyles>
