@@ -7,7 +7,7 @@
   },
   "homepage": "https://github.com/c-Morette/kryden-dayz-ai-toolkit",
   "repository": "https://github.com/c-Morette/kryden-dayz-ai-toolkit",
-  "license": "LicenseRef-MIT-Commons-Clause",
+  "license": "MIT",
   "keywords": [
     "dayz",
     "enforce-script",

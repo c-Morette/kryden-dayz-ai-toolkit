@@ -113,4 +113,4 @@ The mods themselves aren't in this package. My open mods are listed, with GitHub
 
 ## License
 
-MIT + Commons Clause. You can use, study and change this toolkit, on your server and in your mods, free of charge. You can't sell it, or sell a service whose value comes from it. Full text in [LICENSE](LICENSE).
+MIT. You can use, study, change and share this toolkit, including in commercial work, as long as you keep the copyright notice. Full text in [LICENSE](LICENSE).

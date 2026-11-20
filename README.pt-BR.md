@@ -113,4 +113,4 @@ Os mods não vêm neste pacote. Os meus mods abertos estão listados, com link d
 
 ## Licença
 
-MIT + Commons Clause. Você pode usar, estudar e modificar o pacote, inclusive no seu servidor e nos seus mods, de graça. Não pode vender o pacote nem um serviço cujo valor venha dele. Texto completo em [LICENSE](LICENSE).
+MIT. Você pode usar, estudar, modificar e compartilhar o pacote, inclusive em trabalho comercial, desde que mantenha o aviso de copyright. Texto completo em [LICENSE](LICENSE).
